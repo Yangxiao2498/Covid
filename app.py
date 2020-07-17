@@ -5,7 +5,6 @@ import matplotlib.pyplot as plt
 import altair as alt
 #import seaborn as sns; sns.set()
 from helpers import *
-from SIR_Model import *
 from scipy.integrate import odeint
 import matplotlib.animation as animation
 import datetime as dt
