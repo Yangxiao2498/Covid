@@ -296,7 +296,7 @@ def main():
         #plot_test(beta_ridge,gamma_ridge,test_df)
         #plot_test(beta_ridge,gamma_ridge,train_df)
         
-        st.title('fitting plot using whole data set as training')
+        #st.title('fitting plot using whole data set as training')
         def plot_fitting(beta_ridge,gamma_ridge,df):
             # df_beta = df[['beta(t-3)','beta(t-2)','beta(t-1)','beta(t-4)','beta(t-5)','beta(t-6)','beta(t-7)']][-40:]
             # df_gamma = df[['gamma(t-3)','gamma(t-2)','gamma(t-1)','gamma(t-4)','gamma(t-5)','gamma(t-6)','gamma(t-7)']][-40:]
