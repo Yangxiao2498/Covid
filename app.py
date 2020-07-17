@@ -8,7 +8,6 @@ from helpers import *
 from scipy.integrate import odeint
 import matplotlib.animation as animation
 import datetime as dt
-from plotSimulation import *
 from datacleaning import *
 from datetime import datetime, timedelta
 from statistics import mean
