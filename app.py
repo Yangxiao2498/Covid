@@ -6,10 +6,8 @@ import matplotlib.pyplot as plt
 import altair as alt
 #import seaborn as sns; sns.set()
 from helpers import *
-from SIR_Model import *
 from scipy.integrate import odeint
 import matplotlib.animation as animation
-from plotSimulation import *
 from datacleaning import *
 import datetime as dt
 from statistics import mean
@@ -19,7 +17,6 @@ from sklearn.metrics import mean_squared_error
 import seaborn as sns
 from scipy import stats
 from CovidModels import *
-from CallBack import *
 
 
 def main():
